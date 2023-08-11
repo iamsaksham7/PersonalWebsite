@@ -1,0 +1,107 @@
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 7rem;
+    margin-top: 140px;
+    margin-bottom: 90px;
+}
+#header {
+    background-color: #272829;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+h3 {
+    font-family: 'REM', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: -30px;
+    
+}
+#home {
+    background-color:#FFF6E0 ;
+    overflow: hidden;
+}
+#about {
+    background-color: #D8D9DA;
+}
+#about img {
+    border-radius: 10%;
+    border:dotted #000 6px;
+    padding: 10px;
+}
+#project {
+    background-color: #61677A;
+    padding: 6rem;
+}
+.nav-link {
+    color: #FFF6E0;
+}
+#umm {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+#project h2 {
+    color: #FFF6E0;
+}
+#project h3 {
+    color: #FFF6E0;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#project p {
+    color: #FFF6E0;
+}
+#contact {
+    background-color: #FFF6E0;
+}
+.work img {
+    height: 200px;
+    width: 300px;
+    padding: 0.5rem;
+    border: dotted #FFF6E0 6px;
+}
+.work-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.work {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 1200px) {
+.work {
+    display: flex;
+    flex-direction: column;
+}
+.work img {
+    height: 300px;
+    width: 500px;
+}
+#project h3 {
+    font-size: 2rem;
+}
+
+}
+.btn {
+    background-color: #272829;
+    text-decoration: none;
+
+}
+a {
+    text-decoration: none;
+    color: #FFF6E0;
+}
+#foot {
+    background-color: #FFF6E0;
+}
+#foot p {
+    text-align: center; 
+}
