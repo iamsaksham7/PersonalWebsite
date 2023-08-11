@@ -78,21 +78,24 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 @media (max-width: 1200px) {
-.work {
-    display: flex;
-    flex-direction: column;
-}
-#about img {
-    height: 200px;
-}
-.work img {
-    height: 250px;
-    width: 350px;
-}
-#project h3 {
-    font-size: 2rem;
-}
-
+    h1 {
+        font-size: 7rem;
+        text-align: center;
+    }
+    .work {
+        display: flex;
+        flex-direction: column;
+    }
+    #about img {
+        height: 200px;
+    }
+    .work img {
+        height: 250px;
+        width: 350px;
+    }
+    #project h3 {
+        font-size: 2rem;
+    }
 }
 .btn {
     background-color: #272829;
